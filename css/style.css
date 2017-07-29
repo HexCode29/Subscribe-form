@@ -1,0 +1,80 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background: #913e98;  
+}
+#container{
+  background: white;
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 150px;
+  border-radius: 10px;
+  
+}
+form{
+  padding:120px 0 0 0;
+  
+}
+h1{
+  margin-bottom: 30px;
+}
+
+input{
+  width: 200px;
+  height: 40px;
+  border: none;
+  margin-top: 0px;
+  border-bottom: 2px solid #a6a7ab;
+  font-weight: bold;
+  margin-bottom: 30px;
+  outline: none;
+}
+input[type$="it"]{
+  border-radius: 15px;
+  width: 200px;
+  height: 60px;
+  background-color: #913e98;
+  color: white;
+  font-weight: bold;
+  border-bottom: none;
+  margin-top: 25px;
+  transition: all 800ms ease-in-out;
+  cursor: pointer;
+  
+}
+input[type$="it"]:hover{
+  background-color: #663399;
+}
+#login{
+  float: right;
+}
+#login:after{
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 40px;
+  margin-right: 20px;
+  display: inline-block;
+  content: "\f178";
+  font-family: "fontAwesome";
+}
+#nav{
+  float: left;
+}
+#nav:after{
+  margin-top: 40px;
+  margin-left: 20px;
+  display: inline-block;
+  content: "\f036";
+  font-family: "fontAwesome";
+}
+
+
+
+
+
